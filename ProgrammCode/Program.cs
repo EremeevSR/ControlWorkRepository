@@ -1,8 +1,8 @@
 ﻿// Формирование массива, передаваемого на вход метода,
 // возвращающего массив строк требуемой длины.
-string sentense = "This is the first sentence in a string.";
+string sentence = "This is the first sentence in a string.";
 char[] separators = new char[] { ' ', '.' };
-string[] arrOfStr = sentense.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+string[] arrOfStr = sentence.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
 // Код основной программы для проверки работы алгоритма,
 // реализованного в качестве отдельного метода.
